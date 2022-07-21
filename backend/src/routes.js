@@ -9,5 +9,6 @@ const routes = express.Router();
 
 
 routes.get('/search', musicController.search);
+routes.post('/download', musicController.download)
 
 module.exports = routes;
